@@ -1,0 +1,22 @@
+{
+  "name": "silly-state-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "nodemon --config nodemon.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@swc/core": "^1.2.121",
+    "@swc/helpers": "^0.3.2",
+    "nodemon": "^2.0.15",
+    "regenerator-runtime": "^0.13.9",
+    "rxjs": "^7.4.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4",
+    "zustand": "^3.6.7"
+  }
+}
