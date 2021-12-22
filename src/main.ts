@@ -1,4 +1,4 @@
-import { map, of, tap } from "rxjs";
+import { of, tap } from "rxjs";
 import create from "zustand/vanilla";
 
 type SillyStateMachine = Empty | Accumulator | Success;

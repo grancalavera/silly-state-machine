@@ -1,7 +1,7 @@
 ```mermaid
 stateDiagram-v2
 
-state SillyStateMachine {
+state SillyServiceState {
   state AdvanceResult<<choice>>
 
 

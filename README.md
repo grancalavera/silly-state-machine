@@ -1,3 +1,3 @@
 # Silly State Machine
 
-![Silly State Machine State Diagram](./docs/diagrams/state-machine.svg)
+![Silly Service State Diagram](./docs/diagrams/silly-service-state.svg)
