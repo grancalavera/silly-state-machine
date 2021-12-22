@@ -6,10 +6,10 @@ state SillyStateMachine {
 
 
   [*] --> Empty
-  Empty --> Accumulator: setValue(0)
+  Empty --> Accumulator: begin = Accumulator.value = 0
 
-  Accumulator --> Accumulator: accumulate = setValue(Accumulator.value + 1)
-  Accumulator --> AdvanceResult: advance(Accumulator.value)
+  Accumulator --> Accumulator: accumulate = Accumulator.value += 1
+  Accumulator --> AdvanceResult: advance
 
   AdvanceResult --> Empty: Accumulator.value < 10
   AdvanceResult --> Success: Accumulator.value >= 10

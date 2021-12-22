@@ -10,7 +10,7 @@ for src in ./docs/src/*; do
     pathname="${src##*/}"
     destination="./docs/diagrams/${pathname%.*}"
 
-    echo "${diagram}" | npx @mermaid-js/mermaid-cli -o "${destination}.svg"
-    echo "${diagram}" | npx @mermaid-js/mermaid-cli -o "${destination}.png"
+    echo "${diagram}" | yarn mmdc -o "${destination}.svg"
+    echo "${diagram}" | yarn mmdc -o "${destination}.png"
   fi
 done
