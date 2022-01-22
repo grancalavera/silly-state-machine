@@ -1,8 +1,6 @@
 import { map, Observable, of, tap } from "rxjs";
 import { SillyState, store } from "./state";
 
-// silly comment
-
 interface UserAccount {
   username: string;
 }
